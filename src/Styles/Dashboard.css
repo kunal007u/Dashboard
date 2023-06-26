@@ -1,0 +1,16 @@
+.containerr {
+    display: flex;
+    /* flex: 1; */
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header-section {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+

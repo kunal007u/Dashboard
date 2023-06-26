@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+::-webkit-scrollbar {
+    width: 0px !important;
+    height: 0px !important;
+}
+
+/* ------------------------------------  Mobile view ------------------------------------  */
+
+
+
+/* ------------------------------------ Sidebar ------------------------------------ */
+.Sidebar {
+    display: flex;
+    flex-direction: column;
+    z-index: 40;
+    top: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: rgb(30 41 59);
+    transition: all 0.3s ease-in-out;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 250px;
+    transition: width 0.7s ease;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* ---------------------------- Sidebar header ----------------------------  */
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggleBtn {
+    font-size: 1.4rem;
+    background: none !important;
+    padding: 25px 19px;
+}
+
+.hide {
+    transition: all 1s ease-out;
+    display: none;
+}
+
+.show {
+    transition: all 0.8s ease-in;
+    display: block;
+}
+
+.logo {
+
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+/* ---------------------------- Sidebar menu-container ----------------------------  */
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-title {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.Parent-icon {
+    display: flex;
+    gap: 2rem;
+    padding-left: 13px;
+
+}
+
+.Activemenu {
+    /* background-color: #10172a; */
+
+}
+
+.active {
+    /* Your active menu item styles here */
+    background-color: black;
+    font-weight: bold;
+}
+
+
+.DropdownLink {
+    /* opacity: 0.6; */
+    color: rgb(192, 188, 188);
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+.DropdownLink:hover {
+    opacity: 1;
+}
+
+.links {
+    font-size: 17px;
+    text-decoration: none;
+
+}
+
+.ActiveSubMenu {
+    /* background-color: aliceblue; */
+    color: white;
+    opacity: 1 !important;
+}
